@@ -1,5 +1,9 @@
-import openpyxl
+''' Este programa lê as tabelas Excel do projeto "Eleições, Fake News e Os Tribunais:
+desinformação onlina nas eleições de 2018" e constrói um script SQL capaz de adicionar
+essas tabelas (inclusive com o seu conteúdo) em um banco de dados MySQL.           '''
 
+
+import openpyxl
 
 ''' Lê a planilha sheet do arquivo file e escreve no script os trechos que criam
 as tabelas. '''
